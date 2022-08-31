@@ -4,7 +4,7 @@
   "description": "OOP and TDD practice",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/0xZ3n/jest-object-rpg/issues"
   },
-  "homepage": "https://github.com/0xZ3n/jest-object-rpg#readme"
+  "homepage": "https://github.com/0xZ3n/jest-object-rpg#readme",
+  "devDependencies": {
+    "jest": "^29.0.1"
+  }
 }
